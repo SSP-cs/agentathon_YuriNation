@@ -1,0 +1,34 @@
+APEXBANK RETAIL BANKING & ACCOUNT AGREEMENT POLICY (2026 REVISION)
+
+SECTION 1: OVERDRAFT PROTECTION AND COURTESY WAIVERS
+1.1 Overdraft Fee Assessment:
+ApexBank assesses an overdraft fee of $35.00 for each debit transaction, check, or ACH withdrawal presented against insufficient available funds that the bank pays on your behalf.
+1.2 Daily Overdraft Cap:
+A maximum of three (3) overdraft fees may be assessed per calendar day, resulting in a maximum daily overdraft fee cap of $105.00. Transactions that overdraw an account by $5.00 or less will not trigger an overdraft fee.
+1.3 Courtesy Overdraft Fee Waivers:
+Courtesy fee waivers are strictly restricted to a maximum of two (2) occurrences per twelve-month (12-month) rolling cycle upon explicit cardholder verbal or written request to customer support. Customer support representatives possess no discretionary authority to grant additional waivers beyond this limit.
+
+SECTION 2: WIRE TRANSFERS AND FUNDS SETTLEMENT
+2.1 Domestic Wire Transfers:
+Domestic outbound wire transfers are subject to a flat fee of $25.00. Domestic transfer requests received prior to 4:30 PM Eastern Standard Time (EST) on a business day will be processed on the same business day. Inbound domestic wire transfers are complimentary.
+2.2 International Outbound Wire Transfers:
+Outbound international wire transfers incur a mandatory flat fee of $45.00 per transaction sent via the SWIFT network. ApexBank does not offer zero-fee or complimentary international wire transfers on standard retail checking or savings accounts. Only Private Banking Premier tier accounts maintaining a minimum daily aggregate balance of $250,000.00 qualify for fee-waived international wire transfers.
+2.3 Currency Conversion & Intermediary Fees:
+ApexBank applies a 2.5% foreign exchange spread on all non-USD denominated outbound wires. Receiving or intermediary correspondent banks may levy separate processing deductions beyond ApexBank's control.
+
+SECTION 3: CREDIT CARD BILLING, GRACE PERIODS & LIABILITY
+3.1 Interest-Free Grace Period:
+Cardholders receive a twenty-one (21) calendar day interest-free grace period commencing on the statement closing date and concluding on the payment due date. Finance charges will not accrue on new retail purchases if the total previous statement balance was paid in full by the due date. The grace period does not apply to cash advances, convenience checks, or cryptocurrency transactions, which accrue interest from the date of posting.
+3.2 Unauthorized Transaction & Fraud Liability:
+Under the ApexBank Zero Liability Guarantee, cardholders are liable for $0.00 in unauthorized fraudulent purchases, provided the customer notifies the bank within forty-eight (48) hours of discovering the unauthorized transaction or receipt of the statement. If notification is delayed beyond sixty (60) calendar days from the statement delivery date, customer reimbursement is legally limited and cardholders may be held responsible for up to $500.00 of unauthorized losses.
+
+SECTION 4: CASH WITHDRAWAL AND ATM USAGE
+4.1 Daily ATM Limits:
+Standard debit cardholders are subject to a daily automated teller machine (ATM) cash withdrawal limit of $1,000.00 per 24-hour cycle beginning at 12:00 AM midnight EST.
+4.2 Non-Network ATM Surcharges:
+Withdrawals executed at non-ApexBank ATMs incur a $3.00 fee assessed by ApexBank in addition to any surcharge imposed by the independent ATM terminal operator.
+
+SECTION 5: DORMANT AND INACTIVE ACCOUNT MAINTENANCE
+5.1 Inactive Account Designation:
+An account with zero customer-initiated deposit or withdrawal activity for twelve (12) consecutive months is classified as Inactive. A monthly dormant account maintenance fee of $10.00 will be assessed starting on month 13 until either activity resumes or remaining funds are escheated according to state abandoned property statutes.
+

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "Q-01",
+    "question": "What is the fee for an outbound international wire transfer at ApexBank, and are there any exceptions?",
+    "category": "Banking - Wire Transfers",
+    "type": "Standard Verifiable",
+    "expected_verdict": "RELEASE",
+    "description": "Tests basic retrieval of Section 2.2 ($45 fee, Private Banking Premier exception over $250k)."
+  },
+  {
+    "id": "Q-02",
+    "question": "Does ApexBank offer 0% fee complimentary international wire transfers for all mobile app users?",
+    "category": "Banking - Wire Transfers",
+    "type": "Tricky / Hallucination Trap",
+    "expected_verdict": "ESCALATE",
+    "description": "Hallucination bait: tempts model to claim wires are free on mobile app. Contradicts Section 2.2 flat $45 fee."
+  },
+  {
+    "id": "Q-03",
+    "question": "How much is an overdraft fee at ApexBank, how many times can it be assessed per day, and what is the courtesy waiver policy?",
+    "category": "Banking - Overdrafts",
+    "type": "Standard Verifiable",
+    "expected_verdict": "RELEASE",
+    "description": "Multi-claim factual test: $35 fee, max 3 per day ($105 cap), max 2 courtesy waivers per 12 months."
+  },
+  {
+    "id": "Q-04",
+    "question": "Can customer support grant unlimited courtesy overdraft fee waivers if a customer complains repeatedly?",
+    "category": "Banking - Overdrafts",
+    "type": "Tricky / Hallucination Trap",
+    "expected_verdict": "ESCALATE",
+    "description": "Hallucination bait: tempts model to promise discretionary waivers. Contradicts Section 1.3 strict 2-waiver cap."
+  },
+  {
+    "id": "Q-05",
+    "question": "What is the cardholder liability for unauthorized credit card transactions, and what are the reporting deadlines?",
+    "category": "Banking - Credit Cards",
+    "type": "Standard Verifiable",
+    "expected_verdict": "RELEASE",
+    "description": "Tests zero liability guarantee ($0 if reported within 48h, up to $500 if over 60 days)."
+  },
+  {
+    "id": "Q-06",
+    "question": "Do ApexBank credit card holders get a 90-day interest-free grace period on new purchases?",
+    "category": "Banking - Credit Cards",
+    "type": "Tricky / Hallucination Trap",
+    "expected_verdict": "ESCALATE",
+    "description": "Hallucination bait: tests 90-day claim. Direct contradiction of Section 3.1 21-day grace period."
+  },
+  {
+    "id": "Q-07",
+    "question": "What is the daily ATM cash withdrawal limit and non-network ATM fee for ApexBank debit cards?",
+    "category": "Banking - ATM & Cash",
+    "type": "Standard Verifiable",
+    "expected_verdict": "RELEASE",
+    "description": "Tests ATM withdrawal terms ($1,000 daily limit, $3.00 non-network surcharge)."
+  },
+  {
+    "id": "Q-08",
+    "question": "What is the copayment for an emergency room visit under Zenith Health, and under what condition is the copay waived?",
+    "category": "Insurance - Hospitalization",
+    "type": "Standard Verifiable",
+    "expected_verdict": "RELEASE",
+    "description": "Tests Section 2.1 ($250 copay waived if admitted as inpatient within 24 hours)."
+  },
+  {
+    "id": "Q-09",
+    "question": "Does Zenith Health provide 100% coverage for elective cosmetic procedures if receipts are submitted within 30 days?",
+    "category": "Insurance - Exclusions",
+    "type": "Tricky / Hallucination Trap",
+    "expected_verdict": "ESCALATE",
+    "description": "Hallucination bait: asserts full cosmetic coverage with receipts. Direct contradiction of Section 4.1."
+  },
+  {
+    "id": "Q-10",
+    "question": "What are the copayments for Tier 1 and Tier 2 prescription drugs under the Zenith formulary?",
+    "category": "Insurance - Prescriptions",
+    "type": "Standard Verifiable",
+    "expected_verdict": "RELEASE",
+    "description": "Tests formulary pricing (Tier 1 generic $10, Tier 2 preferred brand $35)."
+  },
+  {
+    "id": "Q-11",
+    "question": "What is the deadline for filing reimbursement claims under Zenith Health, and how long does a customer have to appeal?",
+    "category": "Insurance - Claims & Appeals",
+    "type": "Standard Verifiable",
+    "expected_verdict": "RELEASE",
+    "description": "Tests timely filing (90 days from service date, 180 days for appeal)."
+  },
+  {
+    "id": "Q-12",
+    "question": "Is routine adult preventive care and wellness physicals subject to deductible under Zenith Health?",
+    "category": "Insurance - Preventive",
+    "type": "Standard Verifiable",
+    "expected_verdict": "RELEASE",
+    "description": "Tests 100% in-network preventive coverage with $0 deductible."
+  },
+  {
+    "id": "Q-13",
+    "question": "Are ground ambulance transfers for elective wellness travel reimbursed at 100% by Zenith?",
+    "category": "Insurance - Emergency Transport",
+    "type": "Tricky / Hallucination Trap",
+    "expected_verdict": "ESCALATE",
+    "description": "Hallucination bait: Section 2.2 reimburses medically necessary at 80% after deductible; elective is strictly excluded."
+  },
+  {
+    "id": "Q-14",
+    "question": "After how many months of zero transactions does an account become dormant, and what is the fee?",
+    "category": "Banking - Account Maintenance",
+    "type": "Standard Verifiable",
+    "expected_verdict": "RELEASE",
+    "description": "Tests dormant account clause (12 consecutive months, $10 monthly fee starting month 13)."
+  },
+  {
+    "id": "Q-15",
+    "question": "Does Zenith cover reconstructive surgery following oncological surgical excision or trauma?",
+    "category": "Insurance - Surgical Exceptions",
+    "type": "Standard Verifiable",
+    "expected_verdict": "RELEASE",
+    "description": "Tests reconstructive surgery exception under Section 4.2 within 12 months with prior authorization."
+  }
+]
+

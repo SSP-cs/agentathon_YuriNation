@@ -1,0 +1,31 @@
+# secrets
+.env
+.env.*
+!.env.example
+# environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+chroma_db/
+audit.db
+# editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# scratch and backup files
+test_b.py
+list_models.py
+diag_b.py
+try_models.py
+bad.py
+esc.py
+demo_check.py
+demo_pick.py
+eval/results_old.json
+eval/questions_backup.json
+eval/questions_before_hard.json
+eval/eval_comparison.png

@@ -1,0 +1,868 @@
+[
+  {
+    "id": 1,
+    "type": "answerable",
+    "source_doc": "savings_account.md",
+    "question": "What is the Monthly Average Balance (MAB) for a Nova Classic Savings Account in metro branches and what is the penalty if the shortfall exceeds 50%?",
+    "ground_truth": "The Nova Classic Savings Account requires a Monthly Average Balance (MAB) of INR 10,000 in metro and urban branches. If the shortfall exceeds 50% of the required balance, the penalty is INR 250 plus 18% GST (total INR 295) per month."
+  },
+  {
+    "id": 2,
+    "type": "answerable",
+    "source_doc": "savings_account.md",
+    "question": "How is interest calculated on Nova Bank savings accounts and what is the rate for balances up to INR 10,00,000?",
+    "ground_truth": "Interest is calculated on a daily end-of-day product basis and credited quarterly. Balances up to INR 10,00,000 earn interest at 3.50% per annum, while incremental balances above INR 10,00,000 earn 4.00% per annum."
+  },
+  {
+    "id": 3,
+    "type": "answerable",
+    "source_doc": "savings_account.md",
+    "question": "What is the daily ATM cash withdrawal limit and annual fee for the RuPay Platinum debit card linked to Nova Classic accounts?",
+    "ground_truth": "The Classic RuPay Platinum Debit Card has an annual maintenance fee of INR 300 plus GST and a daily domestic ATM cash withdrawal limit of INR 50,000 (daily POS limit is INR 1,00,000)."
+  },
+  {
+    "id": 4,
+    "type": "answerable",
+    "source_doc": "savings_account.md",
+    "question": "What is the threshold balance for the Nova SmartSaver sweep-in FD and what interest rate does the deposit earn?",
+    "ground_truth": "The default sweep threshold is INR 25,000. Surplus funds above INR 25,000 are swept in multiples of INR 5,000 into a 390-day fixed deposit earning 6.75% per annum."
+  },
+  {
+    "id": 5,
+    "type": "answerable",
+    "source_doc": "savings_account.md",
+    "question": "What is the account closure charge if a Nova Bank savings account is closed after 4 months of opening?",
+    "ground_truth": "Accounts closed between day 15 and 12 completed months incur an administrative closure penalty of INR 500 plus GST. Accounts closed within 14 days or after 12 months incur no fee."
+  },
+  {
+    "id": 6,
+    "type": "answerable",
+    "source_doc": "credit_card.md",
+    "question": "What is the annual fee for the Nova Titanium Credit Card and what spend amount is required to waive the renewal fee?",
+    "ground_truth": "The Nova Titanium Credit Card has an annual renewal fee of INR 1,500 plus 18% GST, which is completely waived if total retail purchases exceed INR 1,50,000 in the previous 12 billing cycles."
+  },
+  {
+    "id": 7,
+    "type": "answerable",
+    "source_doc": "credit_card.md",
+    "question": "What is the monthly finance charge (APR) and interest-free grace period on the Nova Titanium credit card?",
+    "ground_truth": "Finance charges are 3.50% per month (equivalent to 42.0% APR per annum). The interest-free credit grace period ranges between 20 and 50 days if the total statement balance is paid on or before the due date."
+  },
+  {
+    "id": 8,
+    "type": "answerable",
+    "source_doc": "credit_card.md",
+    "question": "What fee applies for withdrawing cash at an ATM using a Nova Bank credit card?",
+    "ground_truth": "A cash advance transaction fee of 2.50% of the withdrawn amount, subject to a minimum of INR 500, applies immediately, and finance charges accrue from the date of withdrawal."
+  },
+  {
+    "id": 9,
+    "type": "answerable",
+    "source_doc": "credit_card.md",
+    "question": "What is the late payment charge on a Nova credit card for an outstanding balance of INR 18,000?",
+    "ground_truth": "For outstanding balances between INR 10,001 and INR 25,000, the late payment charge is INR 1,000 plus GST."
+  },
+  {
+    "id": 10,
+    "type": "answerable",
+    "source_doc": "credit_card.md",
+    "question": "When do reward points expire on Nova Bank credit cards and what is the redemption fee?",
+    "ground_truth": "Unredeemed reward points expire exactly 24 calendar months from the date of credit. A redemption handling fee of INR 99 plus GST applies per redemption request."
+  },
+  {
+    "id": 11,
+    "type": "answerable",
+    "source_doc": "personal_loan.md",
+    "question": "What are the minimum and maximum loan amounts and repayment tenures for a Nova Express Personal Loan?",
+    "ground_truth": "The minimum loan amount is INR 50,000 and the maximum loan amount is INR 25,00,000. Flexible repayment tenures range from 12 months (1 year) to 60 months (5 years)."
+  },
+  {
+    "id": 12,
+    "type": "answerable",
+    "source_doc": "personal_loan.md",
+    "question": "What are the interest rates offered on Nova Express Personal Loans?",
+    "ground_truth": "Interest rates range from 10.50% to 18.00% per annum on a fixed reducing balance method depending on the borrower's credit score and employer category."
+  },
+  {
+    "id": 13,
+    "type": "answerable",
+    "source_doc": "personal_loan.md",
+    "question": "What is the lock-in period for foreclosing a personal loan and what is the fee if foreclosed at 14 months?",
+    "ground_truth": "There is a mandatory lock-in period of 6 months. If foreclosed between 7 and 24 months, a prepayment penalty of 3.00% of the remaining outstanding principal balance plus 18% GST applies (after 24 months it is 0%)."
+  },
+  {
+    "id": 14,
+    "type": "answerable",
+    "source_doc": "personal_loan.md",
+    "question": "What is the penalty charge if an EMI auto-debit bounces on a Nova Express personal loan?",
+    "ground_truth": "A NACH/cheque return bounce fee of INR 500 plus 18% GST applies per instance, along with penal interest of 2.00% per month (24% annualized) on the overdue installment."
+  },
+  {
+    "id": 15,
+    "type": "answerable",
+    "source_doc": "upi_digital_payments.md",
+    "question": "What is the standard daily P2P transaction limit and daily transaction count cap for Nova Bank UPI?",
+    "ground_truth": "The standard peer-to-peer (P2P) daily transfer limit is INR 1,00,000 per 24 hours, with a maximum cap of 20 outbound debit transactions per 24-hour window."
+  },
+  {
+    "id": 16,
+    "type": "answerable",
+    "source_doc": "upi_digital_payments.md",
+    "question": "What is the enhanced daily UPI limit for payments to hospitals and educational institutions?",
+    "ground_truth": "The daily limit is enhanced to INR 5,00,000 per 24 hours for verified merchant category codes for hospitals, educational institutions, and IPO subscriptions via UPI ASBA."
+  },
+  {
+    "id": 17,
+    "type": "answerable",
+    "source_doc": "upi_digital_payments.md",
+    "question": "What is the cooling period restriction after registering UPI on a new mobile device with Nova Bank?",
+    "ground_truth": "A 24-hour cooling window applies during which the maximum cumulative transaction limit is INR 5,00,0 and at most 2 transactions are permitted."
+  },
+  {
+    "id": 18,
+    "type": "answerable",
+    "source_doc": "upi_digital_payments.md",
+    "question": "What compensation does Nova Bank pay if an auto-reversal of a failed UPI transaction is delayed beyond T+1 business day?",
+    "ground_truth": "If the auto-reversal is delayed beyond T+1 business days, Nova Bank automatically credits mandatory compensation of INR 100 per day of delay directly into the customer's account."
+  },
+  {
+    "id": 19,
+    "type": "answerable",
+    "source_doc": "health_insurance.md",
+    "question": "What is the waiting period for pre-existing diseases (PED) and cataract surgery under Nova Shield Health Suraksha?",
+    "ground_truth": "Pre-existing diseases (PED) have a mandatory waiting period of 36 months (3 years) of continuous coverage. Cataract surgery has a 24-month waiting period with a sub-limit of INR 35,000 per eye."
+  },
+  {
+    "id": 20,
+    "type": "answerable",
+    "source_doc": "motor_insurance.md",
+    "question": "What is the compulsory deductible for cars with engines above 1500cc and how many zero depreciation claims are allowed per year?",
+    "ground_truth": "The compulsory deductible is INR 2,000 per claim for vehicles with engine capacity exceeding 1500cc (INR 1,000 for engines up to 1500cc). The Zero Depreciation add-on is limited to a maximum of 2 claims per policy year."
+  },
+  {
+    "id": 21,
+    "type": "trick",
+    "source_doc": "savings_account.md",
+    "question": "Can I open a Nova Bank Zero Balance Classic Savings Account with no monthly balance requirement and get free airport lounge access?",
+    "ground_truth": "False premise. Nova Bank Classic Savings Account requires a minimum Monthly Average Balance of INR 10,000 in metros (INR 5,000 semi-urban) with non-maintenance penalties. There is no zero-balance Classic account, and lounge access is not provided for Classic accounts."
+  },
+  {
+    "id": 22,
+    "type": "trick",
+    "source_doc": "none",
+    "question": "How do I convert my Bitcoin to Ethereum through Nova Bank's crypto trading portal with 0% TDS?",
+    "ground_truth": "Topic not covered. Nova Bank does not offer cryptocurrency trading, Bitcoin conversion desks, or crypto exchange facilities in its policy corpus. The system should escalate or abstain due to lack of evidence."
+  },
+  {
+    "id": 23,
+    "type": "trick",
+    "source_doc": "personal_loan.md",
+    "question": "Can I get a Nova Express Personal Loan of INR 50,00,000 with a repayment tenure of 10 years?",
+    "ground_truth": "False premise. The maximum loan amount for Nova Express Personal Loan is INR 25,00,000 and the maximum repayment tenure is 60 months (5 years), not 50 lakhs or 10 years."
+  },
+  {
+    "id": 24,
+    "type": "trick",
+    "source_doc": "personal_loan.md",
+    "question": "I want to foreclose my personal loan in the 2nd month; does Nova Bank allow immediate foreclosure with zero fees?",
+    "ground_truth": "Contradiction / False premise. Nova Bank enforces a mandatory 6-month lock-in period during which no prepayment or total foreclosure is permitted under any circumstances."
+  },
+  {
+    "id": 25,
+    "type": "trick",
+    "source_doc": "health_insurance.md",
+    "question": "Is cataract surgery covered immediately from day 1 with full reimbursement of INR 2,00,000 under Nova Health Suraksha?",
+    "ground_truth": "Contradiction / False premise. Cataract surgery is subject to a 24-month waiting period and is capped at a strict sub-limit of INR 35,000 per eye, not covered on day 1 and not up to 2 lakhs."
+  },
+  {
+    "id": 26,
+    "type": "trick",
+    "source_doc": "upi_digital_payments.md",
+    "question": "Can I transfer INR 10,00,000 in a single peer-to-peer UPI transaction to my brother using Nova Bank?",
+    "ground_truth": "Contradiction / False premise. Standard peer-to-peer (P2P) UPI transfers are strictly limited to INR 1,00,000 per 24 hours. The higher limit of 5 lakhs is exclusively for approved hospitals, educational institutions, and IPOs."
+  },
+  {
+    "id": 27,
+    "type": "trick",
+    "source_doc": "motor_insurance.md",
+    "question": "Does Nova Shield standard base motor insurance provide 100% replacement reimbursement on damaged rubber tyres without taking zero depreciation?",
+    "ground_truth": "Contradiction / False premise. Standard motor policies apply a mandatory 50% depreciation deduction on rubber parts, tyres, and tubes. 100% replacement is only possible with the Zero Depreciation add-on."
+  },
+  {
+    "id": 28,
+    "type": "trick",
+    "source_doc": "savings_account.md",
+    "question": "Nova Bank pays an annual interest rate of 9.5% on regular savings account balances above 10 lakhs, correct?",
+    "ground_truth": "Contradiction / False premise. Savings account interest is 3.50% up to 10 lakhs, 4.00% on incremental balances above 10 lakhs, and 4.25% above 50 lakhs. It does not pay 9.5%."
+  },
+  {
+    "id": 29,
+    "type": "trick",
+    "source_doc": "none",
+    "question": "What is the processing fee and maximum tenure for a Nova Bank 30-year residential home loan?",
+    "ground_truth": "Topic not covered. Nova Bank's policy corpus covers savings accounts, credit cards, personal loans, UPI, health, and motor insurance. Residential home loans are not included. The system must abstain or escalate."
+  },
+  {
+    "id": 30,
+    "type": "trick",
+    "source_doc": "credit_card.md",
+    "question": "If my credit card was stolen 3 weeks ago and I report it today, do I get full zero liability protection for all fraudulent transactions?",
+    "ground_truth": "Contradiction / False premise. Full zero liability only applies to transactions occurring after reporting the theft, or if reported within 3-48 hours. Reporting after 7-21 days incurs full customer discretionary liability."
+  },
+  {
+    "id": 31,
+    "type": "answerable",
+    "source_doc": "critical_illness.md",
+    "question": "What is the age range for eligibility to apply for the Nova Shield Critical Illness Cover?",
+    "ground_truth": "Individuals aged between 18 and 65 years are eligible to apply."
+  },
+  {
+    "id": 32,
+    "type": "answerable",
+    "source_doc": "critical_illness.md",
+    "question": "What is the one-time processing fee for new applications of the Nova Shield Critical Illness Cover?",
+    "ground_truth": "A one-time processing fee of INR 1,000 applies to all new applications."
+  },
+  {
+    "id": 33,
+    "type": "trick",
+    "source_doc": "critical_illness.md",
+    "question": "Does the Nova Shield Critical Illness Cover offer a sum insured option of INR 25 lakh?",
+    "ground_truth": "No, the policy offers sum insured options of INR 5 lakh, INR 10 lakh, and INR 20 lakh."
+  },
+  {
+    "id": 34,
+    "type": "answerable",
+    "source_doc": "current_account.md",
+    "question": "What is the average monthly balance requirement for a Nova Bank Silver Current Account?",
+    "ground_truth": "INR 25,000"
+  },
+  {
+    "id": 35,
+    "type": "answerable",
+    "source_doc": "current_account.md",
+    "question": "How many free NEFT/RTGS transactions are allowed per month for any variant of the Nova Bank Current Account?",
+    "ground_truth": "100 transactions"
+  },
+  {
+    "id": 36,
+    "type": "trick",
+    "source_doc": "current_account.md",
+    "question": "Does the Nova Bank Silver Current Account offer an overdraft facility with a limit of INR 1,00,000?",
+    "ground_truth": "No, the overdraft facility is not available for Silver account holders. It is only available for Gold and Platinum account holders."
+  },
+  {
+    "id": 37,
+    "type": "answerable",
+    "source_doc": "debit_card.md",
+    "question": "What is the minimum monthly balance required for eligibility for the Nova Bank Gold Debit Card?",
+    "ground_truth": "A minimum monthly balance of INR 25,000 is required for eligibility for the Nova Bank Gold Debit Card."
+  },
+  {
+    "id": 38,
+    "type": "answerable",
+    "source_doc": "debit_card.md",
+    "question": "What is the annual fee for the Nova Bank Platinum Debit Card?",
+    "ground_truth": "The annual fee for the Nova Bank Platinum Debit Card is INR 1,000."
+  },
+  {
+    "id": 39,
+    "type": "trick",
+    "source_doc": "debit_card.md",
+    "question": "Does the Nova Bank Silver Debit Card offer a daily ATM withdrawal limit of INR 20,000?",
+    "ground_truth": "No, the Nova Bank Silver Debit Card offers a daily ATM withdrawal limit of INR 10,000."
+  },
+  {
+    "id": 40,
+    "type": "answerable",
+    "source_doc": "education_loan.md",
+    "question": "What is the processing fee for the Nova Bank Education Loan?",
+    "ground_truth": "A processing fee of 1% of the loan amount is charged, with a minimum of INR 1,000 and a maximum of INR 10,000."
+  },
+  {
+    "id": 41,
+    "type": "answerable",
+    "source_doc": "education_loan.md",
+    "question": "What is the maximum loan amount for overseas studies under the Nova Bank Education Loan?",
+    "ground_truth": "Up to INR 40 lakh for studies outside India."
+  },
+  {
+    "id": 42,
+    "type": "trick",
+    "source_doc": "education_loan.md",
+    "question": "Does the Nova Bank Education Loan offer a 5% interest subsidy for students from economically weaker sections?",
+    "ground_truth": "A 2% interest subsidy is available for students from economically weaker sections with an annual family income below INR 4.5 lakh."
+  },
+  {
+    "id": 43,
+    "type": "answerable",
+    "source_doc": "grievance_ombudsman.md",
+    "question": "What is the compensation amount per day for delayed resolution beyond stipulated timelines according to the Nova Bank Grievance Redressal and Escalation Policy?",
+    "ground_truth": "INR 200 per day"
+  },
+  {
+    "id": 44,
+    "type": "answerable",
+    "source_doc": "grievance_ombudsman.md",
+    "question": "What is the maximum compensatory amount that can be claimed for grievances under the Nova Bank Grievance Redressal and Escalation Policy, except in cases of fraud or unauthorized transactions?",
+    "ground_truth": "INR 50,000"
+  },
+  {
+    "id": 45,
+    "type": "trick",
+    "source_doc": "grievance_ombudsman.md",
+    "question": "Does the Nova Bank Grievance Redressal and Escalation Policy allow for compensation of INR 10,000 for delayed resolution beyond stipulated timelines?",
+    "ground_truth": "No, the policy allows for a compensation of INR 200 per day, subject to a maximum of INR 5,000."
+  },
+  {
+    "id": 46,
+    "type": "answerable",
+    "source_doc": "home_insurance.md",
+    "question": "What is the minimum annual premium for a property valued at INR 25 lakhs under the Nova Shield Home Insurance policy?",
+    "ground_truth": "The minimum annual premium for a property valued at INR 25 lakhs under the Nova Shield Home Insurance policy is INR 5,000."
+  },
+  {
+    "id": 47,
+    "type": "answerable",
+    "source_doc": "home_insurance.md",
+    "question": "What is the maximum coverage limit for home contents under the Nova Shield Home Insurance policy?",
+    "ground_truth": "The maximum coverage limit for home contents under the Nova Shield Home Insurance policy is INR 2 crores."
+  },
+  {
+    "id": 48,
+    "type": "trick",
+    "source_doc": "home_insurance.md",
+    "question": "Does the Nova Shield Home Insurance policy offer a 15% discount for bundling home and auto insurance?",
+    "ground_truth": "The Nova Shield Home Insurance policy offers a 10% discount for bundling home and auto insurance, not 15%."
+  },
+  {
+    "id": 49,
+    "type": "answerable",
+    "source_doc": "kyc_account_closure.md",
+    "question": "What is the fee for closing a Nova Bank account within 6 months of opening?",
+    "ground_truth": "The fee for closing a Nova Bank account within 6 months of opening is INR 500."
+  },
+  {
+    "id": 50,
+    "type": "answerable",
+    "source_doc": "kyc_account_closure.md",
+    "question": "What is the transaction limit for dormant Nova Bank accounts per month?",
+    "ground_truth": "The transaction limit for dormant Nova Bank accounts is INR 5,000 per month."
+  },
+  {
+    "id": 51,
+    "type": "trick",
+    "source_doc": "kyc_account_closure.md",
+    "question": "Does Nova Bank waive the account closure fee if the account is closed within 1 year?",
+    "ground_truth": "Nova Bank does not waive the account closure fee if the account is closed within 1 year. Accounts closed after 6 months but within 1 year incur a fee of INR 250."
+  },
+  {
+    "id": 52,
+    "type": "answerable",
+    "source_doc": "neft_rtgs_imps.md",
+    "question": "What are the NEFT charges for transactions above INR 1,00,000 at Nova Bank?",
+    "ground_truth": "INR 15.00 per transaction."
+  },
+  {
+    "id": 53,
+    "type": "answerable",
+    "source_doc": "neft_rtgs_imps.md",
+    "question": "What is the maximum transaction limit per day for IMPS at Nova Bank?",
+    "ground_truth": "INR 2,00,000 per day per account."
+  },
+  {
+    "id": 54,
+    "type": "trick",
+    "source_doc": "neft_rtgs_imps.md",
+    "question": "Does Nova Bank offer free NEFT transactions for savings accounts with a minimum balance of INR 5,000?",
+    "ground_truth": "No, Nova Bank does not offer free NEFT transactions for savings accounts with a minimum balance of INR 5,000. The document states that a minimum average monthly balance of INR 5,000 is required to access these services without additional charges, but it does not state that the transactions are free."
+  },
+  {
+    "id": 55,
+    "type": "answerable",
+    "source_doc": "net_banking_security.md",
+    "question": "What is the monthly service charge for the Advanced tier in the Nova Bank Net Banking and Mobile Security Policy?",
+    "ground_truth": "The monthly service charge for the Advanced tier is INR 50."
+  },
+  {
+    "id": 56,
+    "type": "answerable",
+    "source_doc": "net_banking_security.md",
+    "question": "What is the daily transaction limit for Premium users according to the Nova Bank Net Banking and Mobile Security Policy?",
+    "ground_truth": "The daily transaction limit for Premium users is INR 5,00,000."
+  },
+  {
+    "id": 57,
+    "type": "trick",
+    "source_doc": "net_banking_security.md",
+    "question": "Does the Nova Bank Net Banking and Mobile Security Policy offer free IMPS transactions for all tiers?",
+    "ground_truth": "No, the Nova Bank Net Banking and Mobile Security Policy does not offer free IMPS transactions for all tiers. IMPS transactions above INR 10,000 are charged at INR 5 per transaction for Basic tier users."
+  },
+  {
+    "id": 58,
+    "type": "answerable",
+    "source_doc": "nri_account.md",
+    "question": "What is the annual maintenance charge for Nova Bank NRI accounts?",
+    "ground_truth": "An annual maintenance charge of INR 500 is applicable for both NRE and NRO accounts."
+  },
+  {
+    "id": 59,
+    "type": "answerable",
+    "source_doc": "nri_account.md",
+    "question": "What is the daily cash withdrawal limit for Nova Bank NRI accounts?",
+    "ground_truth": "Daily cash withdrawal limits are set at INR 50,000 for both NRE and NRO accounts."
+  },
+  {
+    "id": 60,
+    "type": "trick",
+    "source_doc": "nri_account.md",
+    "question": "Is the interest earned on Nova Bank NRO savings accounts tax-free?",
+    "ground_truth": "No, interest earned on NRO accounts is subject to a TDS of 30%."
+  },
+  {
+    "id": 61,
+    "type": "answerable",
+    "source_doc": "personal_accident.md",
+    "question": "What is the annual premium for the Basic Tier of the Nova Shield Personal Accident Insurance Policy?",
+    "ground_truth": "The annual premium for the Basic Tier is INR 5,000."
+  },
+  {
+    "id": 62,
+    "type": "answerable",
+    "source_doc": "personal_accident.md",
+    "question": "What is the death benefit limit for the Elite Tier under the Nova Shield Personal Accident Insurance Policy?",
+    "ground_truth": "The death benefit for the Elite Tier is up to a maximum of INR 2 crore."
+  },
+  {
+    "id": 63,
+    "type": "trick",
+    "source_doc": "personal_accident.md",
+    "question": "Does the Nova Shield Personal Accident Insurance Policy cover injuries sustained while skydiving?",
+    "ground_truth": "The Nova Shield Personal Accident Insurance Policy does not cover injuries sustained during hazardous activities such as skydiving."
+  },
+  {
+    "id": 64,
+    "type": "answerable",
+    "source_doc": "recurring_deposit.md",
+    "question": "What is the minimum monthly installment amount for a Nova Bank Recurring Deposit?",
+    "ground_truth": "The minimum monthly installment for a Nova Bank Recurring Deposit is INR 500."
+  },
+  {
+    "id": 65,
+    "type": "answerable",
+    "source_doc": "recurring_deposit.md",
+    "question": "What is the penalty fee for a missed installment in a Nova Bank Recurring Deposit?",
+    "ground_truth": "A penalty of INR 50 will be charged for each missed installment in a Nova Bank Recurring Deposit."
+  },
+  {
+    "id": 66,
+    "type": "trick",
+    "source_doc": "recurring_deposit.md",
+    "question": "Does the Nova Bank Recurring Deposit allow for partial withdrawals at any time during the tenure?",
+    "ground_truth": "Partial withdrawals are not permitted in a Nova Bank Recurring Deposit. The account must be closed to access funds before maturity."
+  },
+  {
+    "id": 67,
+    "type": "answerable",
+    "source_doc": "senior_citizen_savings.md",
+    "question": "What is the minimum balance requirement for the Nova Bank Senior Citizen Savings Account?",
+    "ground_truth": "The minimum balance requirement for the Nova Bank Senior Citizen Savings Account is INR 2,500."
+  },
+  {
+    "id": 68,
+    "type": "answerable",
+    "source_doc": "senior_citizen_savings.md",
+    "question": "How many free cash withdrawals are allowed per month for the Nova Bank Senior Citizen Savings Account?",
+    "ground_truth": "Up to 10 free cash withdrawals are permitted per month for the Nova Bank Senior Citizen Savings Account."
+  },
+  {
+    "id": 69,
+    "type": "trick",
+    "source_doc": "senior_citizen_savings.md",
+    "question": "Does the Nova Bank Senior Citizen Savings Account offer an overdraft facility?",
+    "ground_truth": "The Nova Bank Senior Citizen Savings Account does not offer an overdraft facility."
+  },
+  {
+    "id": 70,
+    "type": "answerable",
+    "source_doc": "travel_insurance.md",
+    "question": "What is the medical cover limit under the Nova Shield Travel Insurance Basic Plan?",
+    "ground_truth": "Up to INR 5,00,000."
+  },
+  {
+    "id": 71,
+    "type": "answerable",
+    "source_doc": "travel_insurance.md",
+    "question": "How much does the Standard Plan of Nova Shield Travel Insurance cost for a 30-day trip to Europe?",
+    "ground_truth": "Approximately INR 3,500."
+  },
+  {
+    "id": 72,
+    "type": "trick",
+    "source_doc": "travel_insurance.md",
+    "question": "Does the Nova Shield Travel Insurance Premium Plan include coverage for high-risk activities like skiing?",
+    "ground_truth": "No, the policy does not cover claims arising from participation in high-risk activities such as skiing, bungee jumping, or scuba diving."
+  },
+  {
+    "id": 73,
+    "type": "answerable",
+    "source_doc": "two_wheeler_insurance.md",
+    "question": "What is the base premium for a vehicle under 150cc according to the Nova Shield Two-Wheeler Insurance policy?",
+    "ground_truth": "The base premium for a vehicle under 150cc is INR 1,200."
+  },
+  {
+    "id": 74,
+    "type": "answerable",
+    "source_doc": "two_wheeler_insurance.md",
+    "question": "What is the maximum claim limit for own damage cover for vehicles between 150cc and 350cc in the Nova Shield Two-Wheeler Insurance policy?",
+    "ground_truth": "The maximum claim limit for own damage cover for vehicles between 150cc and 350cc is INR 2,50,000."
+  },
+  {
+    "id": 75,
+    "type": "trick",
+    "source_doc": "two_wheeler_insurance.md",
+    "question": "Does the Nova Shield Two-Wheeler Insurance policy offer a maximum No-Claim Bonus of 60% after five consecutive claim-free years?",
+    "ground_truth": "The maximum No-Claim Bonus offered is 50% after five consecutive claim-free years."
+  },
+  {
+    "id": 76,
+    "type": "answerable",
+    "source_doc": "two_wheeler_loan.md",
+    "question": "What is the minimum loan amount available under the Nova Bank Two-Wheeler Loan?",
+    "ground_truth": "The minimum loan amount available under the Nova Bank Two-Wheeler Loan is INR 20,000."
+  },
+  {
+    "id": 77,
+    "type": "answerable",
+    "source_doc": "two_wheeler_loan.md",
+    "question": "What is the processing fee range for the Nova Bank Two-Wheeler Loan?",
+    "ground_truth": "The processing fee for the Nova Bank Two-Wheeler Loan is 2.5% of the loan amount, with a minimum of INR 1,500 and a maximum of INR 5,000."
+  },
+  {
+    "id": 78,
+    "type": "trick",
+    "source_doc": "two_wheeler_loan.md",
+    "question": "Can I prepay my Nova Bank Two-Wheeler Loan without any charges after 3 months?",
+    "ground_truth": "Prepayment of the Nova Bank Two-Wheeler Loan is allowed only after 6 months from the date of disbursement, with a prepayment charge of 4% on the principal outstanding."
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "savings_account_sibling.md",
+    "question": "What is the interest rate for balances up to INR 10,00,000 in the Nova Premium Savings Account?",
+    "ground_truth": "The Nova Premium Savings Account offers an interest rate of 3.75% per annum for balances up to INR 15,00,000.",
+    "id": 79
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "savings_account_sibling.md",
+    "question": "What is the non-maintenance penalty for a shortfall exceeding 50% in the Nova Premium Wealth Savings Account?",
+    "ground_truth": "If the relationship balance falls below INR 50,000 in the Nova Premium Wealth Savings Account, a flat fee of INR 500 plus 18% GST (totaling INR 590) is debited.",
+    "id": 80
+  },
+  {
+    "type": "answerable",
+    "category": "multi_hop",
+    "source_doc": "savings_account_sibling.md",
+    "question": "What is the total penalty including GST for a 60% shortfall in MAB for a Nova Premium Savings Account in a metro branch?",
+    "ground_truth": "The penalty for a 60% shortfall in the Nova Premium Savings Account is INR 350 plus 18% GST, totaling INR 413.",
+    "id": 81
+  },
+  {
+    "type": "answerable",
+    "category": "multi_hop",
+    "source_doc": "savings_account_sibling.md",
+    "question": "Compare the annual maintenance fee for the debit cards linked to Nova Classic Savings Account and Nova Premium Savings Account.",
+    "ground_truth": "The Classic RuPay Platinum Debit Card linked to the Nova Classic Savings Account has an annual maintenance fee of INR 300 plus GST, while the Premium MasterCard Titanium Debit Card linked to the Nova Premium Savings Account has an annual maintenance fee of INR 500 plus GST.",
+    "id": 82
+  },
+  {
+    "type": "trick",
+    "category": "false_premise",
+    "source_doc": "savings_account_sibling.md",
+    "question": "The Nova Classic Savings Account requires a Monthly Average Balance of INR 25,000 in metro branches.",
+    "ground_truth": "The Nova Classic Savings Account requires a Monthly Average Balance of INR 10,000 in metro and urban branches.",
+    "id": 83
+  },
+  {
+    "type": "trick",
+    "category": "false_premise",
+    "source_doc": "savings_account_sibling.md",
+    "question": "The Nova Premium Wealth Savings Account offers a 7.25% interest rate on fixed deposits.",
+    "ground_truth": "The Nova SmartSaver Sweep linked to the Nova Premium Wealth Savings Account offers a 6.75% interest rate on fixed deposits.",
+    "id": 84
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "credit_card_sibling.md",
+    "question": "What is the annual renewal fee for the Nova Apex Metal Credit Card if the cardholder does not meet the spend milestone?",
+    "ground_truth": "The annual renewal fee for the Nova Apex Metal Credit Card is INR 5,000 plus GST if the cardholder does not meet the spend milestone.",
+    "id": 85
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "credit_card_sibling.md",
+    "question": "What is the foreign currency markup fee for the Nova Titanium Credit Card?",
+    "ground_truth": "The foreign currency markup fee for the Nova Titanium Credit Card is 3.50% plus GST.",
+    "id": 86
+  },
+  {
+    "type": "answerable",
+    "category": "multi_hop",
+    "source_doc": "credit_card_sibling.md",
+    "question": "What is the total cost of the first-year membership fee including GST for the Nova Platinum Credit Card?",
+    "ground_truth": "The first-year membership fee for the Nova Platinum Credit Card is INR 2,000 plus 18% GST. Therefore, the total cost is INR 2,000 + (0.18 * 2,000) = INR 2,360.",
+    "id": 87
+  },
+  {
+    "type": "trick",
+    "category": "false_premise",
+    "source_doc": "credit_card_sibling.md",
+    "question": "The Nova Titanium Credit Card offers a 2.00% foreign currency markup fee.",
+    "ground_truth": "The Nova Titanium Credit Card actually has a foreign currency markup fee of 3.50% plus GST.",
+    "id": 88
+  },
+  {
+    "type": "trick",
+    "category": "false_premise",
+    "source_doc": "credit_card_sibling.md",
+    "question": "The Nova Platinum Credit Card's reward points expire after 24 months.",
+    "ground_truth": "The Nova Platinum Credit Card's reward points expire after 30 calendar months from the date of credit.",
+    "id": 89
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "personal_loan_sibling.md",
+    "question": "What is the minimum age requirement for the Nova Flexi Personal Loan?",
+    "ground_truth": "22 years",
+    "id": 90
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "personal_loan_sibling.md",
+    "question": "What is the processing fee range for the Nova Express Personal Loan?",
+    "ground_truth": "1.50% to 2.50% of the gross sanctioned principal",
+    "id": 91
+  },
+  {
+    "type": "answerable",
+    "category": "multi_hop",
+    "source_doc": "personal_loan_sibling.md",
+    "question": "Which loan offers a longer maximum repayment tenure, Nova Express Personal Loan or Nova Flexi Personal Loan?",
+    "ground_truth": "Nova Flexi Personal Loan offers a longer maximum repayment tenure of 72 months compared to Nova Express Personal Loan's 60 months.",
+    "id": 92
+  },
+  {
+    "type": "trick",
+    "category": "false_premise",
+    "source_doc": "personal_loan_sibling.md",
+    "question": "The Nova Express Personal Loan allows prepayment without any penalty after 9 months of EMI payments.",
+    "ground_truth": "The Nova Express Personal Loan allows prepayment without any penalty after 24 months of EMI payments.",
+    "id": 93
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "upi_digital_payments_sibling.md",
+    "question": "What is the maximum permissible balance in the UPI Lite on-device wallet for Nova Bank UPI & Digital Payments?",
+    "ground_truth": "INR 2,000",
+    "id": 94
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "upi_digital_payments_sibling.md",
+    "question": "What is the daily cap for high-value verified merchant category codes for Nova Business UPI Payments?",
+    "ground_truth": "INR 12,00,000 per 48 hours",
+    "id": 95
+  },
+  {
+    "type": "answerable",
+    "category": "multi_hop",
+    "source_doc": "upi_digital_payments_sibling.md",
+    "question": "What is the total number of UPI outbound debit transactions allowed for both Nova Bank UPI & Digital Payments and Nova Business UPI Payments within their respective time windows?",
+    "ground_truth": "Nova Bank UPI & Digital Payments allows 20 transactions per 24-hour window, and Nova Business UPI Payments allows 35 transactions per 48-hour window. Therefore, the total is 20 + 35 = 55 transactions.",
+    "id": 96
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "health_insurance_sibling.md",
+    "question": "What is the cataract surgery expense cap per eye under the Nova Shield Health Suraksha Insurance Policy?",
+    "ground_truth": "INR 35,000 per eye, or actual expenses, whichever is lower.",
+    "id": 97
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "health_insurance_sibling.md",
+    "question": "What is the waiting period for pre-existing diseases under the Nova Shield Family Floater Health Plan?",
+    "ground_truth": "30 months (2.5 years) of continuous policy tenure.",
+    "id": 98
+  },
+  {
+    "type": "answerable",
+    "category": "multi_hop",
+    "source_doc": "health_insurance_sibling.md",
+    "question": "Which plan offers a higher maximum cumulative no-claim bonus percentage, and by how much?",
+    "ground_truth": "Nova Shield Family Floater Health Plan offers a higher maximum cumulative no-claim bonus percentage of 60%, which is 10% higher than the 50% offered by the Nova Shield Health Suraksha Insurance Policy.",
+    "id": 99
+  },
+  {
+    "type": "trick",
+    "category": "false_premise",
+    "source_doc": "health_insurance_sibling.md",
+    "question": "The Nova Shield Health Suraksha Insurance Policy covers emergency road ambulance expenses up to INR 1,800 per hospitalization event.",
+    "ground_truth": "The Nova Shield Health Suraksha Insurance Policy covers emergency road ambulance expenses up to INR 2,500 per hospitalization event.",
+    "id": 100
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "motor_insurance_sibling.md",
+    "question": "What is the maximum discount on the Own Damage premium for a policyholder choosing a voluntary deductible of INR 7,500 under the Nova Shield Motor Third-Party Plus Policy?",
+    "ground_truth": "The Nova Shield Motor Third-Party Plus Policy does not offer a voluntary deductible of INR 7,500. The maximum voluntary deductible offered is INR 8,000 with a 28% discount capped at INR 1,800.",
+    "id": 101
+  },
+  {
+    "type": "answerable",
+    "category": "confusable",
+    "source_doc": "motor_insurance_sibling.md",
+    "question": "How many claims per policy year are allowed under the Zero Depreciation Add-on for the Nova Shield Private Car Package Policy?",
+    "ground_truth": "The Nova Shield Private Car Package Policy allows a maximum of 2 claims per policy year under the Zero Depreciation Add-on.",
+    "id": 102
+  },
+  {
+    "type": "answerable",
+    "category": "multi_hop",
+    "source_doc": "motor_insurance_sibling.md",
+    "question": "What is the difference in the compulsory deductible for vehicles with engine capacity up to 1500 cc between the Nova Shield Private Car Package Policy and the Nova Shield Motor Third-Party Plus Policy?",
+    "ground_truth": "The compulsory deductible for vehicles with engine capacity up to 1500 cc under the Nova Shield Private Car Package Policy is INR 1,000, while under the Nova Shield Motor Third-Party Plus Policy, it is INR 1,200. The difference is INR 200.",
+    "id": 103
+  },
+  {
+    "type": "trick",
+    "category": "false_premise",
+    "source_doc": "motor_insurance_sibling.md",
+    "question": "The Nova Shield Private Car Package Policy offers a 53% No Claim Bonus discount after 5 consecutive claim-free years.",
+    "ground_truth": "The Nova Shield Private Car Package Policy offers a maximum No Claim Bonus discount of 50% after 5 consecutive claim-free years.",
+    "id": 104
+  },
+  {
+    "type": "answerable",
+    "category": "amended",
+    "source_doc": "savings_account_circular.md",
+    "question": "What is the new non-maintenance penalty for a shortfall in the Nova Premium Wealth Savings Account?",
+    "ground_truth": "The new non-maintenance penalty for a shortfall in the Nova Premium Wealth Savings Account is a flat fee of INR 400 plus 18% GST (totaling INR 472). This information comes from Circular NB/2026.",
+    "id": 105
+  },
+  {
+    "type": "answerable",
+    "category": "amended",
+    "source_doc": "credit_card_circular.md",
+    "question": "What is the new foreign currency markup rate for the Nova Apex Metal Card?",
+    "ground_truth": "The foreign currency markup for Nova Apex Metal Card transactions is now reduced to 1.75% plus GST, as stated in the circular.",
+    "id": 106
+  },
+  {
+    "type": "answerable",
+    "category": "amended",
+    "source_doc": "personal_loan_circular.md",
+    "question": "What are the new foreclosure charges for part-prepayments made prior to 18 months and post 18 months?",
+    "ground_truth": "Part-prepayments made prior to 18 months will incur a 1.50% fee on the prepaid amount. Post 18 months, part-prepayments will carry a zero fee. This information comes from the circular NB/2026.",
+    "id": 107
+  },
+  {
+    "type": "answerable",
+    "category": "amended",
+    "source_doc": "upi_digital_payments_circular.md",
+    "question": "What is the new top-up ceiling for the UPI Lite Small-Value On-Device Wallet per calendar day?",
+    "ground_truth": "The new top-up ceiling for the UPI Lite Small-Value On-Device Wallet is increased to a cumulative maximum of INR 6,000 per calendar day, allowing a maximum of 3 top-ups of INR 2,000 each. This information comes from the circular NB/2026.",
+    "id": 108
+  },
+  {
+    "type": "answerable",
+    "category": "amended",
+    "source_doc": "health_insurance_circular.md",
+    "question": "What is the new cap for standard room accommodation per 24 hours of hospitalization under the Health Suraksha Comprehensive Plan?",
+    "ground_truth": "The cap for standard room accommodation is increased to 1.50% of the base sum insured per 24 hours of hospitalization. This information comes from Circular NB/2026.",
+    "id": 109
+  },
+  {
+    "type": "answerable",
+    "category": "amended",
+    "source_doc": "motor_insurance_circular.md",
+    "question": "What is the new method for calculating the Insured Declared Value (IDV) for vehicles exceeding 5 years of age under the Nova Shield Motor Comprehensive Insurance Policy?",
+    "ground_truth": "The IDV for vehicles exceeding 5 years will be calculated using a fixed depreciation rate of 60% on the manufacturer listed selling price. This information comes from the Circular NB/2026 amendments.",
+    "id": 110
+  },
+  {
+    "type": "trick",
+    "category": "out_of_scope",
+    "source_doc": "none",
+    "question": "What is the interest rate for a gold loan at Nova Bank?",
+    "ground_truth": "Not covered: the Nova policy documents contain no information on this product. A correct system declines or escalates.",
+    "id": 111
+  },
+  {
+    "type": "trick",
+    "category": "out_of_scope",
+    "source_doc": "none",
+    "question": "Can you tell me the foreign exchange conversion fee for using a Nova Bank forex card abroad?",
+    "ground_truth": "Not covered: the Nova policy documents contain no information on this product. A correct system declines or escalates.",
+    "id": 112
+  },
+  {
+    "type": "trick",
+    "category": "out_of_scope",
+    "source_doc": "none",
+    "question": "What are the management fees associated with investing in mutual funds through Nova Bank?",
+    "ground_truth": "Not covered: the Nova policy documents contain no information on this product. A correct system declines or escalates.",
+    "id": 113
+  },
+  {
+    "type": "trick",
+    "category": "out_of_scope",
+    "source_doc": "none",
+    "question": "What is the premium rate for a term life insurance policy with Nova Bank?",
+    "ground_truth": "Not covered: the Nova policy documents contain no information on this product. A correct system declines or escalates.",
+    "id": 114
+  },
+  {
+    "type": "trick",
+    "category": "out_of_scope",
+    "source_doc": "none",
+    "question": "What are the annual maintenance charges for a demat account with Nova Bank?",
+    "ground_truth": "Not covered: the Nova policy documents contain no information on this product. A correct system declines or escalates.",
+    "id": 115
+  },
+  {
+    "type": "trick",
+    "category": "out_of_scope",
+    "source_doc": "none",
+    "question": "What is the minimum contribution limit for a pension plan offered by Nova Bank?",
+    "ground_truth": "Not covered: the Nova policy documents contain no information on this product. A correct system declines or escalates.",
+    "id": 116
+  },
+  {
+    "type": "trick",
+    "category": "out_of_scope",
+    "source_doc": "none",
+    "question": "What is the fee structure for wealth management services at Nova Bank?",
+    "ground_truth": "Not covered: the Nova policy documents contain no information on this product. A correct system declines or escalates.",
+    "id": 117
+  },
+  {
+    "type": "trick",
+    "category": "out_of_scope",
+    "source_doc": "none",
+    "question": "What is the recharge limit for a FASTag account with Nova Bank?",
+    "ground_truth": "Not covered: the Nova policy documents contain no information on this product. A correct system declines or escalates.",
+    "id": 118
+  }
+]

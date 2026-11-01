@@ -1,0 +1,6 @@
+{
+  "51": {"ground_truth": "No. Closure within 14 days of opening is free, but between day 15 and 12 completed months an administrative closure penalty of INR 500 plus GST applies. No closure fee applies after 12 completed months."},
+  "54": {"drop": true},
+  "91": {"ground_truth": "As amended by the 1 September 2026 circular, the processing fee is 1.25% to 2.00% of the gross sanctioned principal (previously 1.50% to 2.50%)."},
+  "99": {"ground_truth": "As amended by the 1 September 2026 circular, the Health Suraksha Comprehensive Plan allows a maximum cumulative no-claim bonus of 100% of the original sum insured, versus 60% for the Nova Shield Family Floater Health Plan, so Health Suraksha is higher by 40 percentage points. Before the circular it was 50%."}
+}
